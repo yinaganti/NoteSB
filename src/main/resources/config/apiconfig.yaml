@@ -1,0 +1,12 @@
+api-data:
+  employee:
+    url: http://localhost:8081/employee
+    method: GET
+    
+  student:
+    url: http://localhost:8081/student
+    method: POST
+    data: |
+      {
+        "id": 2
+      }
